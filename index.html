@@ -25,7 +25,7 @@
     <meta name="theme-color" content="#000000">
 
     <!--OpenGraph-->
-    <meta property="og:locale" content="en_US">
+    <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Sandboxels">
     <meta property="og:description" content="Relax or experiment with over 500 materials in this falling sand simulator.">
@@ -166,7 +166,7 @@
                 "M2|XX|M2",
                 "M1|M1|M1",
             ],
-            LIQUID: function(pixel) {
+            ЖИДКОСТИ: function(pixel) {
                 if (pixel.start === pixelTicks) {return}
                 if (pixel.charge && elements[pixel.element].behaviorOn) {
                     pixelTick(pixel)
